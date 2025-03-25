@@ -23,6 +23,7 @@ jobs:
       - name: Install Required Python Packages
         run: |
           pip install -r requirements.txt
+          cd ..
 
       - name: Run Unit Tests
         run: |
