@@ -23,9 +23,10 @@ jobs:
       - name: Install Required Python Packages
         run: |
           pip install -r requirements.txt
-          cd ..
+         
 
       - name: Run Unit Tests
         run: |
+          cd ..
           cd Tests
           pytest unit_test.py
