@@ -9,6 +9,8 @@ Created On: March 22, 2025
 
 """ Import necessary libraries """
 import pytest
+import sys
+sys.path.append("/kitikiplot")  
 import pandas as pd
 import matplotlib.patches as mpatches
 from kitikiplot import KitikiPlot
